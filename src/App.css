@@ -10,8 +10,15 @@
 .heading ul {
   display: flex;
   list-style: none;
+
 }
 
 .heading li {
   padding: 0 50px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.remove {
+  display: none;
 }

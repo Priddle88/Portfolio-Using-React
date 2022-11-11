@@ -1,6 +1,15 @@
 function About() {
+
+    const showAbout = () => {
+        console.log("Hellooooo");
+        document.querySelector('.folio').classList.add('remove');
+        document.querySelector('.about').classList.remove('remove');
+
+    };
+
     return (
-        <li>About Me</li>
+        
+        <li onClick={showAbout}>About Me</li>
     );
 }
 

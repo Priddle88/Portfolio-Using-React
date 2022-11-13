@@ -1,13 +1,12 @@
 import About from './About';
+import Portfolio from './Portfolio';
 
 const Page = (props) => {
 
     if (props.navbar === "About") {
         return <About />
     } else if (props.navbar === "Portfolio") {
-        return (
-            <p>Making Progress with Portfolio</p>
-        );
+        return <Portfolio />
     } else if (props.navbar === "Contact") {
         return (
             <p>Making Progress. Now i need to add more script</p>

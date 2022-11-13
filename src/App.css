@@ -5,6 +5,7 @@
   padding: 0 20px;
   background-color: darkslategrey;
   color: white;
+  flex-wrap: wrap;
 }
 
 .heading ul {
@@ -21,4 +22,22 @@
 
 .remove {
   display: none;
+}
+
+.pic {
+  width: 100px;
+  height: 180px;
+  padding-left: 10px;
+}
+
+.aboutTitle {
+  text-align: center;
+}
+
+.aboutBox {
+  display: flex;
+}
+
+.aboutContent {
+  padding: 20px;
 }

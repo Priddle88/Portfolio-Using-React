@@ -1,3 +1,7 @@
+* {
+  font-family: Garamond, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .heading {
   display: flex;
   justify-content: space-between;
@@ -20,6 +24,24 @@
   cursor: pointer;
 }
 
+.heading a {
+  padding: 0 50px;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.heading li:hover {
+  font-size: x-large;
+  box-shadow: 5px 5px 10px;
+  border: 2px solid white;
+}
+
+.heading li:active {
+  font-size: x-large;
+  box-shadow: 5px 5px 10px;
+  border: 2px solid white;
+}
+
 .remove {
   display: none;
 }
@@ -27,7 +49,7 @@
 .pic {
   width: 100px;
   height: 180px;
-  padding-left: 10px;
+  padding: 0 80px;
 }
 
 .aboutTitle {
@@ -53,7 +75,7 @@
 }
 
 .lilBlock {
-  padding: 10px;
+  padding: 4%;
 }
 
 .lilBlock h3 {
@@ -64,4 +86,40 @@
   width: 310px;
   height: 210px;
   box-shadow: 10px 10px 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.smApp:hover .overlay {
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer img {
+  width: 65px;
+  padding: 20px;
+}
+
+.imgOne {
+  margin-right: 10px;
+}
+
+.footerBlock {
+  padding-top: 80px;
 }

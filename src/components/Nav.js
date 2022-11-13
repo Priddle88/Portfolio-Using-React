@@ -2,12 +2,13 @@
 // import Contact from './Contact';
 import Resume from './Resume';
 import Page from './Page';
+import Footer from './Footer';
 // import Portfolio from './Portfolio';
 import React, { useState } from 'react';
 
 function Home() {
 
-    const [navbar, setNav] = useState('');
+    const [navbar, setNav] = useState('About');
 
     const test = () => {
         console.log("Hellooooo");
@@ -33,7 +34,9 @@ function Home() {
                     navbar={navbar}
                 ></Page>
             </div>
-
+            <div className='footerBlock'>
+                <Footer />
+            </div>
         </div>
     );
 

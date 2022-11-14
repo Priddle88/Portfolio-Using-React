@@ -1,5 +1,6 @@
 import About from './About';
 import Portfolio from './Portfolio';
+import Resume from './Resume';
 
 const Page = (props) => {
 
@@ -11,12 +12,14 @@ const Page = (props) => {
         return (
             <p>Making Progress. Now i need to add more script</p>
         );
+    } else if (props.navbar === "Resume") {
+        return < Resume />
+    } else {
+        return (
+            <p> nothing yet</p>
+        );
     }
 
-    return (
-
-        <p> nothing yet</p>
-    );
 }
 
 export default Page;

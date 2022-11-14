@@ -3,7 +3,12 @@ function Resume(props) {
 
 
     return (
-        <li onClick={props.test}>Resume</li>
+        <section>
+            <div>
+                <h2>Resume</h2>
+                <p>Download my <a href="/resume/Resume-22.pdf" alt="Resume" download>Resume</a></p>
+            </div>
+        </section>
     );
 }
 

@@ -1,6 +1,6 @@
 // import About from './About';
 // import Contact from './Contact';
-import Resume from './Resume';
+// import Resume from './Resume';
 import Page from './Page';
 import Footer from './Footer';
 // import Portfolio from './Portfolio';
@@ -10,10 +10,10 @@ function Home() {
 
     const [navbar, setNav] = useState('About');
 
-    const test = () => {
-        console.log("Hellooooo");
-        console.log(navbar);
-    }
+    // const test = () => {
+    //     console.log("Hellooooo");
+    //     console.log(navbar);
+    // }
 
 
     return (
@@ -25,7 +25,7 @@ function Home() {
                         <li onClick={() => setNav("About")}>About Me</li>
                         <li onClick={() => setNav("Portfolio")}>Portfolio</li>
                         <li onClick={() => setNav("Contact")}>Contact</li>
-                        <Resume test={test}></Resume>
+                        <li onClick={() => setNav("Resume")}>Resume</li>
                     </ul>
                 </nav>
             </div>

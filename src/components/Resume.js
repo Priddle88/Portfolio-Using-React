@@ -5,16 +5,16 @@ function Resume(props) {
         <section className="resumeSection">
             <div className="resumeBox">
                 <h2>Resume</h2>
-                <p>Download my <a href="/resume/Resume-22.pdf" alt="Resume" download>Resume</a></p>
+                <p>Download my <a href="/assets/Resume-22.pdf" alt="Resume" download>Resume</a></p>
             </div>
             <div className="proficientBox">
                 <h3>Front-End Proficiencies</h3>
                 <ul>
                     <li>HTML & CSS</li>
-                        <ul>
-                            <li>Bootstrap</li>
-                            <li>Using Flex</li>
-                        </ul>
+                    <ul>
+                        <li>Bootstrap</li>
+                        <li>Using Flex</li>
+                    </ul>
                     <li>Javascript</li>
                     <li>APIs</li>
                     <li>React</li>

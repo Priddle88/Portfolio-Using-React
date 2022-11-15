@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-using-react/static/css/main.910eb5ce.css",
-    "main.js": "/portfolio-using-react/static/js/main.4d1b2ae0.js",
-    "static/media/screenshot-note-taker.png": "/portfolio-using-react/static/media/screenshot-note-taker.236111207374ef7a153a.png",
-    "static/media/screenshot-weatherdashboard.png": "/portfolio-using-react/static/media/screenshot-weatherdashboard.d1d60117ed9a223f1aaa.png",
-    "static/media/screenshot-quiz.png": "/portfolio-using-react/static/media/screenshot-quiz.0efee4fdd17fa3adac78.png",
-    "static/media/portfolio-pic.jpg": "/portfolio-using-react/static/media/portfolio-pic.1e0d4c7b071bfef4393d.jpg",
-    "static/media/screenshot-project-2.png": "/portfolio-using-react/static/media/screenshot-project-2.2b48f8182e39f8dd5fb6.png",
-    "static/media/screenshot-scheduler.png": "/portfolio-using-react/static/media/screenshot-scheduler.5c1b7514a501fdf5dab7.png",
-    "static/media/screenshot-password.png": "/portfolio-using-react/static/media/screenshot-password.4ab13d9b1718ca1fdc05.png",
-    "static/media/Work-Profile-Screenshot copy.png": "/portfolio-using-react/static/media/Work-Profile-Screenshot copy.cb035372da9719044695.png",
-    "static/media/stack-image.png": "/portfolio-using-react/static/media/stack-image.0123b8df35f2e7d20bc8.png",
-    "static/media/linkedin-icon.png": "/portfolio-using-react/static/media/linkedin-icon.b328e9dea8d781435980.png",
-    "index.html": "/portfolio-using-react/index.html",
-    "main.910eb5ce.css.map": "/portfolio-using-react/static/css/main.910eb5ce.css.map",
-    "main.4d1b2ae0.js.map": "/portfolio-using-react/static/js/main.4d1b2ae0.js.map"
+    "main.css": "/my-app/static/css/main.910eb5ce.css",
+    "main.js": "/my-app/static/js/main.36e54a0d.js",
+    "static/media/screenshot-note-taker.png": "/my-app/static/media/screenshot-note-taker.236111207374ef7a153a.png",
+    "static/media/screenshot-weatherdashboard.png": "/my-app/static/media/screenshot-weatherdashboard.d1d60117ed9a223f1aaa.png",
+    "static/media/screenshot-quiz.png": "/my-app/static/media/screenshot-quiz.0efee4fdd17fa3adac78.png",
+    "static/media/portfolio-pic.jpg": "/my-app/static/media/portfolio-pic.1e0d4c7b071bfef4393d.jpg",
+    "static/media/screenshot-project-2.png": "/my-app/static/media/screenshot-project-2.2b48f8182e39f8dd5fb6.png",
+    "static/media/screenshot-scheduler.png": "/my-app/static/media/screenshot-scheduler.5c1b7514a501fdf5dab7.png",
+    "static/media/screenshot-password.png": "/my-app/static/media/screenshot-password.4ab13d9b1718ca1fdc05.png",
+    "static/media/Work-Profile-Screenshot copy.png": "/my-app/static/media/Work-Profile-Screenshot copy.cb035372da9719044695.png",
+    "static/media/stack-image.png": "/my-app/static/media/stack-image.0123b8df35f2e7d20bc8.png",
+    "static/media/linkedin-icon.png": "/my-app/static/media/linkedin-icon.b328e9dea8d781435980.png",
+    "index.html": "/my-app/index.html",
+    "main.910eb5ce.css.map": "/my-app/static/css/main.910eb5ce.css.map",
+    "main.36e54a0d.js.map": "/my-app/static/js/main.36e54a0d.js.map"
   },
   "entrypoints": [
     "static/css/main.910eb5ce.css",
-    "static/js/main.4d1b2ae0.js"
+    "static/js/main.36e54a0d.js"
   ]
 }

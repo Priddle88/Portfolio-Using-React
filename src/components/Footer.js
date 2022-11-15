@@ -3,6 +3,7 @@ import linkedInLogo from "../images/linkedin-icon.png";
 import stackLogo from "../images/stack-image.png";
 
 function Footer() {
+    // Logos and links to the following social sites
     return (
         <div className="footer">
             <a href="https://github.com/Priddle88"><img className="imgOne" alt="" src={githubLogo} /></a>

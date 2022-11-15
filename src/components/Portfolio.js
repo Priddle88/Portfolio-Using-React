@@ -1,3 +1,4 @@
+// Importing all the images I will need
 import passwordImage from "../images/screenshot-password.png";
 import weatherImage from "../images/screenshot-weatherdashboard.png";
 import workProfImage from "../images/Work-Profile-Screenshot copy.png";
@@ -9,6 +10,7 @@ import githubLogo from "../images/github-logo.png";
 
 function Portfolio() {
 
+    // Lists the portfolios
     return (
         <section>
             <div className="folio">

@@ -1,7 +1,6 @@
 function Resume(props) {
 
-
-
+    // Returns the Resume page
     return (
         <section className="resumeSection">
             <div className="resumeBox">

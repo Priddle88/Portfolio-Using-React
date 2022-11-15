@@ -1,7 +1,10 @@
+// imports the email validator from the helpers file
 import { validateEmail } from "./utils/helpers";
 
+// Function to handle the Contact page
 function Contact() {
 
+    // Event listener function that handles the validation of the name, email, and message
     const formSubmit = (event) => {
         event.preventDefault();
 
@@ -9,7 +12,7 @@ function Contact() {
         const newEmail = document.querySelector('#email').value;
         const newMessage = document.querySelector('#message').value;
 
-
+        // Validate to make sure that the name, email, and message and not empty and that the email is valid
         if (newName === "") {
             alert("Need to add a name");
         }
@@ -24,6 +27,7 @@ function Contact() {
 
     }
 
+    //Returns the Contact page
     return (
         <section className='contactSection'>
             <h2>Contact Me</h2>

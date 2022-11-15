@@ -1,7 +1,9 @@
+// Imports the picture I have of myself
 import profPic from "../images/portfolio-pic.jpg"
 
 function About() {
 
+    // Return the About Me page
     return (
         <div>
             <h2 className="aboutTitle">About Me</h2>

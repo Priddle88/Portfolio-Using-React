@@ -1,7 +1,7 @@
 // import About from './About';
 // import Contact from './Contact';
 // import Resume from './Resume';
-import Page from './Page';
+import Page from './Project';
 import Footer from './Footer';
 // import Portfolio from './Portfolio';
 import React, { useState } from 'react';

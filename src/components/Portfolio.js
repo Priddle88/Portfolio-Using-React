@@ -14,6 +14,17 @@ function Portfolio() {
     return (
         <section>
             <div className="folio">
+            <div className="lilBlock">
+                    <div className="portTitle">
+                        <a href="https://priddle88.github.io/Password-Generator/" >
+                            <h3>Shakespear's Monkeys</h3>
+                        </a>
+                        <a href="https://github.com/Priddle88/Password-Generator"><img alt="" className="littleLogo" src={githubLogo} /></a>
+                    </div>
+                    <a href="https://priddle88.github.io/Password-Generator/" >
+                        <img alt="" className="smApp"
+                            src={passwordImage} /></a>
+                </div>
                 <div className="lilBlock">
                     <div className="portTitle">
                         <a href="https://priddle88.github.io/Password-Generator/" >

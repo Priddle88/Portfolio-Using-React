@@ -5,6 +5,7 @@ import workProfImage from "../images/Work-Profile-Screenshot copy.png";
 import schedulerImage from "../images/screenshot-scheduler.png";
 import noteImage from "../images/screenshot-note-taker.png";
 import quizImage from "../images/screenshot-quiz.png";
+import monkeyImage from "../images/monkeys-pic.png";
 import pjTwo from "../images/screenshot-project-2.png";
 import githubLogo from "../images/github-logo.png";
 
@@ -14,16 +15,16 @@ function Portfolio() {
     return (
         <section>
             <div className="folio">
-            <div className="lilBlock">
+                <div className="lilBlock">
                     <div className="portTitle">
-                        <a href="https://priddle88.github.io/Password-Generator/" >
+                        <a href="https://dpk5e7-team-handbook.herokuapp.com/" >
                             <h3>Shakespear's Monkeys</h3>
                         </a>
-                        <a href="https://github.com/Priddle88/Password-Generator"><img alt="" className="littleLogo" src={githubLogo} /></a>
+                        <a href="https://dpk5e7-team-handbook.herokuapp.com/"><img alt="" className="littleLogo" src={githubLogo} /></a>
                     </div>
-                    <a href="https://priddle88.github.io/Password-Generator/" >
+                    <a href="https://dpk5e7-team-handbook.herokuapp.com/" >
                         <img alt="" className="smApp"
-                            src={passwordImage} /></a>
+                            src={monkeyImage} /></a>
                 </div>
                 <div className="lilBlock">
                     <div className="portTitle">

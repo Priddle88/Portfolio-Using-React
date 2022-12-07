@@ -1,7 +1,19 @@
-import React from 'react';
-// import ReactDOM from 'react-dom';
-import App from './App';
+// import React from 'react';
+// // import ReactDOM from 'react-dom';
+// import App from './App';
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -10,10 +22,10 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 //   document.getElementById('root')
 // );
 
-import { createRoot } from 'react-dom/client';
-const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-root.render(<App tab="home" />);
+// import { createRoot } from 'react-dom/client';
+// const container = document.getElementById('root');
+// const root = createRoot(container); // createRoot(container!) if you use TypeScript
+// root.render(<App tab="home" />);
 
 
 serviceWorkerRegistration.register();

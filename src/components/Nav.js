@@ -17,7 +17,7 @@ function Home() {
 
 
     return (
-        <div>
+        <div className='wholePage'>
             <div className="heading">
                 <h1>Parker Riddle</h1>
                 <nav>

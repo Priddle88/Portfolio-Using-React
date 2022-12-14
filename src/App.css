@@ -87,7 +87,7 @@
 .smApp:hover {
   width: 310px;
   height: 210px;
-  box-shadow: 10px 10px 10px;
+  box-shadow: 5px 5px 5px;
 }
 
 .overlay {
@@ -100,7 +100,7 @@
   width: 100px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: gray;
 }
 
 .smApp:hover .overlay {
@@ -234,6 +234,11 @@
 }
 
 @media screen and (max-width:550px) {
+
+  .wholePage {
+    display: block;
+  }
+
   .contactSection {
     text-align: center;
     padding: 0 80px;
@@ -247,6 +252,12 @@
   .heading ul {
     padding: 0;
   }
+
+  .heading li {
+    padding: 10px 12px;
+    width: 100%;
+    text-align: center;
+}
 
   .aboutBox {
     display: block;

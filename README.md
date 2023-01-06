@@ -4,67 +4,26 @@ I have been tasked with creating a page to display my future portfolio. The exam
 
 [Link to my webpage](https://priddle88.github.io/Portfolio-Using-React/)
 
-In the project directory, you can run:
+## The Process
 
-### `npm start`
+The main objective fo rme was to organize the different layers and pages using the components folder. I used css as well to style and layout the page so I can organize everything where I wanted them to go.
+  
+## Header Image
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The left side of my header looked cluttered to me so I placed it on the left of the page. But when I would make thescreen smaller, the image would collide with my name. As the screen width got even smaller, I placed the image belowmy name and gave my name the full width of the page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Nav Bar
 
-### `npm test`
+I wrote the html for the navigation bar without the css and ran the code to see what the default would look like.All three list items were there but they were displayed vertically. I wanted to switch them to be horizontal so Idisplayed them as inline instead.When scaling, the nav bar did need to be resized when the text ran out of room. Idecided to switch the links back to being vertical and added a border for a more aesthetic look. I also made sure toadd links to the sections of the page below.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About Me
 
-### `npm run build`
+Added inline css to make the text horizontal then back to vertical to scale. Added border on left to sepereate textand title which switches to above for smaller screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Portfolio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I originally planned to design the layout of this section with a grid format. I had everything written out and theplaceholder images looked great. I wanted to add a hover affect to the images and I also wanted to make the firstimage to be larger than the rest. I realized that I could do that with the grid but it would take more code than ifI were to use flex. I decided to make the switch. I wrapped the content and made the first image have a bigger widththan the rest. I used relative positioning to place the title where I wanted to on the images. When scaling down,flex did most of the work. I used percentages with with width so that scaling would be easier. Eventually the widthbecame so small that the images would no longer fit, so I hid the images and kept the clickable titles to link to mywork.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contact Info
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I centered the header ("Contact Info") and seperated the html below with a div tag. I did the same as before to switch from vertical to horizontal (inline) and back (block).

@@ -29,3 +29,7 @@ I originally planned to design the layout of this section with a grid format. I 
 ## Contact Info
 
 I centered the header ("Contact Info") and seperated the html below with a div tag. I did the same as before to switch from vertical to horizontal (inline) and back (block).
+
+## Questions
+
+Reach out to parkerriddle09@gmail.com if you have any questions!

@@ -4,8 +4,6 @@ I have been tasked with creating a page to display my future portfolio. The exam
 
 [Link to my webpage](https://priddle88.github.io/Portfolio-Using-React/)
 
-![Picture of porfolio page](./src/images/screenshot-portfolio.png)
-
 ## The Process
 
 The main objective fo rme was to organize the different layers and pages using the components folder. I used css as well to style and layout the page so I can organize everything where I wanted them to go.

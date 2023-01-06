@@ -4,7 +4,7 @@ I have been tasked with creating a page to display my future portfolio. The exam
 
 [Link to my webpage](https://priddle88.github.io/Portfolio-Using-React/)
 
-![Pic of page](./src/images/portfolio-pic.jpg)
+![Pic of page](./src/images/screenshot-portfolio.png)
 
 ## The Process
 

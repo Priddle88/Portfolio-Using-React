@@ -1,5 +1,5 @@
 {
-  "short_name": "Portfolio-Using-React",
+  "short_name": "React-Portfolio",
   "name": "Portfolio-Using-React",
   "icons": [
     {
@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/Portfolio-Using-React/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

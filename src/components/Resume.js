@@ -9,7 +9,7 @@ function Resume(props) {
         <section className="resumeSection">
             <div className="resumeBox">
                 <h2>Resume</h2>
-                <p>Download my <a href="../../resume/Parker-Riddle-Resume.pdf" alt="Resume" download>Resume</a></p>
+                <p>Download my <a href="https://priddle88.github.io/Portfolio-Using-React/public/resume/Parker-Riddle-Resume.pdf" alt="Resume" download>Resume</a></p>
             </div>
             <div className="proficientBox">
                 <h3>Front-End Proficiencies</h3>

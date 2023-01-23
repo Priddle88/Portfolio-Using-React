@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Using-React/static/css/main.6d00d303.css",
-    "main.js": "/Portfolio-Using-React/static/js/main.388ce5ad.js",
+    "main.js": "/Portfolio-Using-React/static/js/main.ab770f6a.js",
     "static/media/screenshot-note-taker.png": "/Portfolio-Using-React/static/media/screenshot-note-taker.236111207374ef7a153a.png",
     "static/media/screenshot-weatherdashboard.png": "/Portfolio-Using-React/static/media/screenshot-weatherdashboard.d1d60117ed9a223f1aaa.png",
     "static/media/screenshot-quiz.png": "/Portfolio-Using-React/static/media/screenshot-quiz.0efee4fdd17fa3adac78.png",
@@ -15,10 +15,10 @@
     "static/media/linkedin-icon.png": "/Portfolio-Using-React/static/media/linkedin-icon.b328e9dea8d781435980.png",
     "index.html": "/Portfolio-Using-React/index.html",
     "main.6d00d303.css.map": "/Portfolio-Using-React/static/css/main.6d00d303.css.map",
-    "main.388ce5ad.js.map": "/Portfolio-Using-React/static/js/main.388ce5ad.js.map"
+    "main.ab770f6a.js.map": "/Portfolio-Using-React/static/js/main.ab770f6a.js.map"
   },
   "entrypoints": [
     "static/css/main.6d00d303.css",
-    "static/js/main.388ce5ad.js"
+    "static/js/main.ab770f6a.js"
   ]
 }

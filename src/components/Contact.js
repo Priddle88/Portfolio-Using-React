@@ -1,8 +1,7 @@
-
+// Contact page
 function Contact() {
 
-
-    //Returns the Contact page
+    // Sends an email based off user input
     return (
         <section className='contactSection'>
             <h2>Contact Me</h2>

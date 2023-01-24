@@ -1,20 +1,12 @@
-// import About from './About';
-// import Contact from './Contact';
-// import Resume from './Resume';
 import Page from './Project';
 import Footer from './Footer';
-// import Portfolio from './Portfolio';
 import React, { useState } from 'react';
 
+// Homepage
 function Home() {
 
+    // sets the state of navbar to "About" initially. Changes when the setNav function is called
     const [navbar, setNav] = useState('About');
-
-    // const test = () => {
-    //     console.log("Hellooooo");
-    //     console.log(navbar);
-    // }
-
 
     return (
         <div className='wholePage'>
@@ -22,6 +14,7 @@ function Home() {
                 <h1>Parker Riddle</h1>
                 <nav>
                     <ul>
+                        {/* Changes the page when the link in the navbar is clicked */}
                         <li onClick={() => setNav("About")}>About Me</li>
                         <li onClick={() => setNav("Portfolio")}>Portfolio</li>
                         <li onClick={() => setNav("Contact")}>Contact</li>
@@ -29,6 +22,7 @@ function Home() {
                     </ul>
                 </nav>
             </div>
+            {/* The page changes based off what the user clicks in the links */}
             <div>
                 <Page
                     navbar={navbar}

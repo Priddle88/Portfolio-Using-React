@@ -1,14 +1,12 @@
-
-
+// Resume page
 function Resume(props) {
-
-
 
     // Returns the Resume page
     return (
         <section className="resumeSection">
             <div className="resumeBox">
                 <h2>Resume</h2>
+                {/* Downloads my resume when clicked */}
                 <p>Download my <a href="https://priddle88.github.io/Portfolio-Using-React/resume/Parker-Riddle-Resume.pdf" alt="Resume" download>Resume</a></p>
             </div>
             <div className="proficientBox">

@@ -26,10 +26,14 @@ Added inline css to make the text horizontal then back to vertical to scale. Add
 
 I originally planned to design the layout of this section with a grid format. I had everything written out and theplaceholder images looked great. I wanted to add a hover affect to the images and I also wanted to make the firstimage to be larger than the rest. I realized that I could do that with the grid but it would take more code than ifI were to use flex. I decided to make the switch. I wrapped the content and made the first image have a bigger widththan the rest. I used relative positioning to place the title where I wanted to on the images. When scaling down,flex did most of the work. I used percentages with with width so that scaling would be easier. Eventually the widthbecame so small that the images would no longer fit, so I hid the images and kept the clickable titles to link to mywork.
 
+## Contact Page
+
+I used the site [formsubmit.co](https://formsubmit.co/) to help me send an email to my email when someone wants to contact me. They made the process super simple compared to the other methods I tried. 
+
 ## Contact Info
 
 I centered the header ("Contact Info") and seperated the html below with a div tag. I did the same as before to switch from vertical to horizontal (inline) and back (block).
 
 ## Questions
 
-Reach out to parkerriddle09@gmail.com if you have any questions!
+Reach out to parkerriddle09@gmail.com if you have any questions

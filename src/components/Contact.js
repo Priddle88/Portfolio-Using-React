@@ -6,7 +6,7 @@ function Contact() {
     return (
         <section className='contactSection'>
             <h2>Contact Me</h2>
-            <form action="https://formsubmit.co/parkerriddle09@gmail.com" method="POST" className='contactForm'>
+            <form action="https://formsubmit.co/852b900995d7c9a59908c25e302f0175" method="POST" className='contactForm'>
                 <div className="form-group">
                     <label>Name:</label>
                     <input type="name" name="name" className="form-control" id="name" placeholder="Name" />

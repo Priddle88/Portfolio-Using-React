@@ -1,6 +1,6 @@
 # Portfolio-Using-React
 
-I have been tasked with creating a page to display my future portfolio. The example provided helped me with the layout of the page. I originally wanted to create a page that incorporated a grid layout to showcase my work. It worked great up until I got to re-sizing the css for the width of the page. I ended up switching to flex instead.
+I have been tasked with creating a page to display a portfolio of my work. There are links in the navbar to contact me, a portolio page, a place to download my resume and showcase my proficiencies, and a little bit about my journey to today. There is a link to download my resume on the resume page, as well as my LinkedIn, Github, and Stack Overflow profiles at the bottom of every page. This project is meant for you to get to know me, so please do. You can even send me an email located on the contact page.
 
 [Link to my webpage](https://priddle88.github.io/Portfolio-Using-React/)
 

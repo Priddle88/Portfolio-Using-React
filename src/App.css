@@ -62,7 +62,10 @@
 }
 
 .aboutContent {
-  padding: 20px;
+ padding: 0 20px;
+ font-family: sans-serif;
+ font-size: large;
+ line-height: 1.4;
 }
 
 .smApp {

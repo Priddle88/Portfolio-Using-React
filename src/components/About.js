@@ -11,7 +11,7 @@ function About() {
                 <img className="pic" alt="Portfolio Pic" src={profPic} />
                 <div className="aboutParagraphs">
                 <p className="aboutContent"> 
-                &nbsp;&nbsp;&nbsp;&nbsp;My previous work experience is mainly focued on sales and customer service. In high school, I started dabbling in Javascript and HTML/CSS through codeacademy. That led to me taking a class in computer programming during my senior year.
+                &nbsp;&nbsp;&nbsp;&nbsp;My previous work experience is mainly focused on sales and customer service. In high school, I started dabbling in Javascript and HTML/CSS through codeacademy. That led to me taking a class in computer programming during my senior year.
                 </p>
                 <p className="aboutContent"> 
                 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -19,9 +19,7 @@ function About() {
                 </p>
                 <p className="aboutContent"> 
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                I recently completed a Full Stack Web Development Bootcamp through the University of Denver with a 4.0 grade point average (97%), which helped tremendously with gaining knowledge in front-end and back-end development.
-                 I had previous experience with HTML and Javascript but the course showed me that that I was just scaping the surface.
-                 I was taught about using React and databases like MongoDB, simplified CSS with Bootstrap, created logins and used API's. 
+                I recently completed a Full Stack Web Development Bootcamp through the University of Denver with a 4.0 grade point average (97%), which helped tremendously with gaining knowledge in front-end and back-end development. I had previous experience with HTML and Javascript but the course showed me that I was just scraping the surface. I was taught about using React and databases like MongoDB, simplified CSS with Bootstrap, created logins and used API's.
                  </p>
                  <p className="aboutContent">
                  &nbsp;&nbsp;&nbsp;&nbsp;

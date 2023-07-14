@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-Using-React/static/css/main.8ad1ebe1.css",
-    "main.js": "/Portfolio-Using-React/static/js/main.561b2977.js",
+    "main.js": "/Portfolio-Using-React/static/js/main.ac0f9d52.js",
+    "static/media/venue.png": "/Portfolio-Using-React/static/media/venue.a5098b8ee283b05cb019.png",
     "static/media/screenshot-note-taker.png": "/Portfolio-Using-React/static/media/screenshot-note-taker.236111207374ef7a153a.png",
     "static/media/screenshot-weatherdashboard.png": "/Portfolio-Using-React/static/media/screenshot-weatherdashboard.d1d60117ed9a223f1aaa.png",
     "static/media/screenshot-quiz.png": "/Portfolio-Using-React/static/media/screenshot-quiz.0efee4fdd17fa3adac78.png",
@@ -15,10 +16,10 @@
     "static/media/linkedin-icon.png": "/Portfolio-Using-React/static/media/linkedin-icon.b328e9dea8d781435980.png",
     "index.html": "/Portfolio-Using-React/index.html",
     "main.8ad1ebe1.css.map": "/Portfolio-Using-React/static/css/main.8ad1ebe1.css.map",
-    "main.561b2977.js.map": "/Portfolio-Using-React/static/js/main.561b2977.js.map"
+    "main.ac0f9d52.js.map": "/Portfolio-Using-React/static/js/main.ac0f9d52.js.map"
   },
   "entrypoints": [
     "static/css/main.8ad1ebe1.css",
-    "static/js/main.561b2977.js"
+    "static/js/main.ac0f9d52.js"
   ]
 }
